@@ -210,3 +210,52 @@ a:hover {
         padding: 1em 9em;
     }
 }
+
+@media (min-width: 250px) and (max-width: 360px) {
+    body{
+        font-size: 1em;
+    }
+
+    .main-backdrop{
+        width: 100%;
+        padding: 0;
+    }
+
+    .card-container {
+        width: 18em;
+        margin: -3em 7em;
+        padding: 0 0 1.3em 0;
+    }
+
+    .header-image {
+        transform: scale(0.64);
+        margin-top: -2.5em;
+        margin-bottom: -1em;
+    }
+
+    h1 {
+        padding-top: -2em;
+    }
+
+    .article-paragraph {
+        padding: 0 2.5em 0 2.5em;
+    }
+
+    .main-price-container {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .main-price-container {
+        width: 88%;
+        padding: 1em;
+    }
+
+    .grey-text {
+        padding-top: 0;
+    }
+
+    .blue-button {
+        padding: 1em 6em;
+    }
+}
